@@ -1,0 +1,171 @@
+body {
+  width: 816px;
+  height: 1056px;
+  margin: auto; }
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  margin-left: 10px; }
+  .titleContainer img {
+    width: 45px;
+    height: 25px;
+    margin-top: 0px; }
+  .titleContainer h2 {
+    font-size: 150%;
+    text-transform: uppercase;
+    margin-top: 0px;
+    font-weight: bold; }
+
+.hl {
+  width: 85%;
+  height: 1px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  background-color: #66AA69; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; }
+  header .headerContent {
+    width: 300px; }
+    header .headerContent h1 {
+      width: 100%;
+      margin-top: 10px;
+      text-align: center;
+      font-size: 300%; }
+    header .headerContent p {
+      width: 100%;
+      text-align: center;
+      font-size: 140%; }
+  header img {
+    width: 260px; }
+
+.contentContainer {
+  display: flex;
+  width: 100%;
+  margin-top: 20px; }
+  .contentContainer .leftColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    background-color: #484A47; }
+    .contentContainer .leftColumn .profilePic {
+      align-self: center;
+      width: 250px;
+      height: 250px;
+      margin-top: 20px;
+      margin-bottom: 20px; }
+    .contentContainer .leftColumn .contactInfo {
+      width: 100%; }
+      .contentContainer .leftColumn .contactInfo .titleContainer {
+        width: 245px;
+        margin: auto;
+        color: #fff; }
+      .contentContainer .leftColumn .contactInfo .contactList {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        margin: auto;
+        margin-top: 20px; }
+        .contentContainer .leftColumn .contactInfo .contactList .contactItem {
+          display: flex;
+          width: 100%;
+          height: 50px;
+          margin-top: 10px; }
+          .contentContainer .leftColumn .contactInfo .contactList .contactItem img {
+            width: 35px; }
+          .contentContainer .leftColumn .contactInfo .contactList .contactItem p {
+            align-self: center;
+            color: #fff;
+            margin-left: 10px; }
+          .contentContainer .leftColumn .contactInfo .contactList .contactItem:nth-of-type(2) p {
+            font-size: 120%; }
+          .contentContainer .leftColumn .contactInfo .contactList .contactItem:nth-of-type(3) p {
+            font-size: 85%; }
+    .contentContainer .leftColumn .skills .titleContainer {
+      width: 250px;
+      margin: auto;
+      color: #fff; }
+      .contentContainer .leftColumn .skills .titleContainer h2 {
+        align-self: center;
+        font-size: 120%; }
+    .contentContainer .leftColumn .skills .skillList {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      margin: auto;
+      margin-top: 20px; }
+      .contentContainer .leftColumn .skills .skillList .skillItem {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 30px;
+        margin-top: 10px; }
+        .contentContainer .leftColumn .skills .skillList .skillItem img {
+          align-self: center;
+          width: 85px;
+          height: 18px; }
+        .contentContainer .leftColumn .skills .skillList .skillItem p {
+          align-self: center;
+          color: #fff;
+          font-size: 110%; }
+  .contentContainer .rightColumn {
+    width: 65%;
+    background-color: blue; }
+    .contentContainer .rightColumn .objective {
+      display: flex;
+      width: 100%;
+      padding: 10px; }
+      .contentContainer .rightColumn .objective .objectiveContent {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10px; }
+        .contentContainer .rightColumn .objective .objectiveContent p {
+          width: 90%;
+          font-size: 120%;
+          margin-left: 10px;
+          margin-top: 20px;
+          line-height: 25px; }
+    .contentContainer .rightColumn .workHistory {
+      width: 100%;
+      margin-left: 20px;
+      margin-top: 30px; }
+      .contentContainer .rightColumn .workHistory .titleContainer {
+        width: 245px;
+        margin-left: 0px; }
+      .contentContainer .rightColumn .workHistory .heading {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin-top: 20px;
+        color: #66AA69; }
+        .contentContainer .rightColumn .workHistory .heading h2 {
+          align-self: center;
+          font-size: 130%; }
+        .contentContainer .rightColumn .workHistory .heading p {
+          align-self: center;
+          font-size: 100%; }
+      .contentContainer .rightColumn .workHistory h3 {
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 120%; }
+      .contentContainer .rightColumn .workHistory .learnList {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        margin-top: 10px;
+        margin-left: 20px;
+        list-style-type: disc; }
+        .contentContainer .rightColumn .workHistory .learnList .learnItem {
+          margin-top: 10px;
+          font-size: 110%; }
+    .contentContainer .rightColumn .hl {
+      width: 92%;
+      margin-top: 30px;
+      background-color: #656565; }
