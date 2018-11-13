@@ -16,13 +16,14 @@ body {
     font-size: 150%;
     text-transform: uppercase;
     margin-top: 0px;
-    font-weight: bold; }
+    font-weight: bold;
+    color: #484A47; }
 
 .hl {
   width: 85%;
   height: 1px;
   margin: auto;
-  margin-top: 15px;
+  margin-top: 25px;
   margin-bottom: 20px;
   background-color: #66AA69; }
 
@@ -36,11 +37,13 @@ header {
       width: 100%;
       margin-top: 10px;
       text-align: center;
-      font-size: 300%; }
+      font-size: 300%;
+      color: #484A47; }
     header .headerContent p {
       width: 100%;
       text-align: center;
-      font-size: 140%; }
+      font-size: 140%;
+      color: #484A47; }
   header img {
     width: 260px; }
 
@@ -51,7 +54,6 @@ header {
   .contentContainer .leftColumn {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     width: 35%;
     background-color: #484A47; }
     .contentContainer .leftColumn .profilePic {
@@ -65,7 +67,9 @@ header {
       .contentContainer .leftColumn .contactInfo .titleContainer {
         width: 245px;
         margin: auto;
-        color: #fff; }
+        margin-top: 10px; }
+        .contentContainer .leftColumn .contactInfo .titleContainer h2 {
+          color: #fff; }
       .contentContainer .leftColumn .contactInfo .contactList {
         display: flex;
         flex-direction: column;
@@ -75,8 +79,7 @@ header {
         .contentContainer .leftColumn .contactInfo .contactList .contactItem {
           display: flex;
           width: 100%;
-          height: 50px;
-          margin-top: 10px; }
+          height: 50px; }
           .contentContainer .leftColumn .contactInfo .contactList .contactItem img {
             width: 35px; }
           .contentContainer .leftColumn .contactInfo .contactList .contactItem p {
@@ -90,22 +93,23 @@ header {
     .contentContainer .leftColumn .skills .titleContainer {
       width: 250px;
       margin: auto;
-      color: #fff; }
+      margin-top: 10px; }
       .contentContainer .leftColumn .skills .titleContainer h2 {
         align-self: center;
-        font-size: 120%; }
+        font-size: 120%;
+        color: #fff; }
     .contentContainer .leftColumn .skills .skillList {
       display: flex;
       flex-direction: column;
       width: 80%;
       margin: auto;
-      margin-top: 20px; }
+      margin-top: 10px; }
       .contentContainer .leftColumn .skills .skillList .skillItem {
         display: flex;
         justify-content: space-between;
         width: 100%;
         height: 30px;
-        margin-top: 10px; }
+        margin-top: 5px; }
         .contentContainer .leftColumn .skills .skillList .skillItem img {
           align-self: center;
           width: 85px;
@@ -114,28 +118,29 @@ header {
           align-self: center;
           color: #fff;
           font-size: 110%; }
+        .contentContainer .leftColumn .skills .skillList .skillItem:nth-of-type(10) {
+          margin-bottom: 10px; }
   .contentContainer .rightColumn {
-    width: 65%;
-    background-color: blue; }
+    width: 65%; }
     .contentContainer .rightColumn .objective {
       display: flex;
       width: 100%;
-      padding: 10px; }
+      padding: 0px 10px 10px 10px; }
       .contentContainer .rightColumn .objective .objectiveContent {
         display: flex;
         flex-direction: column;
-        width: 100%;
-        margin-top: 10px; }
+        width: 100%; }
         .contentContainer .rightColumn .objective .objectiveContent p {
           width: 90%;
           font-size: 120%;
           margin-left: 10px;
           margin-top: 20px;
-          line-height: 25px; }
+          line-height: 25px;
+          color: #484A47; }
     .contentContainer .rightColumn .workHistory {
       width: 100%;
       margin-left: 20px;
-      margin-top: 30px; }
+      margin-top: 10px; }
       .contentContainer .rightColumn .workHistory .titleContainer {
         width: 245px;
         margin-left: 0px; }
@@ -150,11 +155,13 @@ header {
           font-size: 130%; }
         .contentContainer .rightColumn .workHistory .heading p {
           align-self: center;
-          font-size: 100%; }
+          font-size: 100%;
+          color: #484A47; }
       .contentContainer .rightColumn .workHistory h3 {
         margin-top: 10px;
         font-weight: bold;
-        font-size: 120%; }
+        font-size: 120%;
+        color: #484A47; }
       .contentContainer .rightColumn .workHistory .learnList {
         display: flex;
         flex-direction: column;
@@ -168,4 +175,18 @@ header {
     .contentContainer .rightColumn .hl {
       width: 92%;
       margin-top: 30px;
+      margin-left: 0px;
       background-color: #656565; }
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  margin-top: 20px;
+  background-color: #45914E; }
+  footer p {
+    align-self: center;
+    width: 100%;
+    text-align: center;
+    font-size: 120%;
+    color: #fff; }
